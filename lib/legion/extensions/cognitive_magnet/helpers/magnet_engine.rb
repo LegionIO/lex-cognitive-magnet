@@ -157,11 +157,11 @@ module Legion
 
           def build_interaction_event(pole_a, pole_b, type, force)
             {
-              type:       type,
-              pole_a_id:  pole_a.id,
-              pole_b_id:  pole_b.id,
-              force:      force,
-              at:         Time.now.utc
+              type:      type,
+              pole_a_id: pole_a.id,
+              pole_b_id: pole_b.id,
+              force:     force,
+              at:        Time.now.utc
             }
           end
 

@@ -180,7 +180,7 @@ RSpec.describe Legion::Extensions::CognitiveMagnet::Helpers::Field do
     it 'includes all expected keys' do
       h = field.to_h
       expect(h).to include(:id, :name, :pole_ids, :alignment, :flux_density, :pole_count,
-                            :coherent, :chaotic, :alignment_label, :created_at)
+                           :coherent, :chaotic, :alignment_label, :created_at)
     end
 
     it 'returns a copy of pole_ids' do

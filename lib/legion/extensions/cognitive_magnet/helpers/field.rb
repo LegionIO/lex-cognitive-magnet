@@ -57,16 +57,16 @@ module Legion
 
           def to_h
             {
-              id:           @id,
-              name:         @name,
-              pole_ids:     @pole_ids.dup,
-              alignment:    @alignment,
-              flux_density: @flux_density,
-              pole_count:   pole_count,
-              coherent:     coherent?,
-              chaotic:      chaotic?,
+              id:              @id,
+              name:            @name,
+              pole_ids:        @pole_ids.dup,
+              alignment:       @alignment,
+              flux_density:    @flux_density,
+              pole_count:      pole_count,
+              coherent:        coherent?,
+              chaotic:         chaotic?,
               alignment_label: alignment_label,
-              created_at:   @created_at
+              created_at:      @created_at
             }
           end
 

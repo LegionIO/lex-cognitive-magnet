@@ -200,7 +200,7 @@ RSpec.describe Legion::Extensions::CognitiveMagnet::Helpers::Pole do
     it 'returns a hash with all expected keys' do
       h = pole.to_h
       expect(h).to include(:id, :polarity, :strength, :material_type, :domain, :content,
-                            :saturated, :weak, :strength_label, :created_at)
+                           :saturated, :weak, :strength_label, :created_at)
     end
 
     it 'reflects current state' do

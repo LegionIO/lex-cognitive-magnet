@@ -57,16 +57,16 @@ module Legion
 
           def to_h
             {
-              id:            @id,
-              polarity:      @polarity,
-              strength:      @strength,
-              material_type: @material_type,
-              domain:        @domain,
-              content:       @content,
-              saturated:     saturated?,
-              weak:          weak?,
+              id:             @id,
+              polarity:       @polarity,
+              strength:       @strength,
+              material_type:  @material_type,
+              domain:         @domain,
+              content:        @content,
+              saturated:      saturated?,
+              weak:           weak?,
               strength_label: strength_label,
-              created_at:    @created_at
+              created_at:     @created_at
             }
           end
         end
